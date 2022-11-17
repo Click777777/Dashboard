@@ -4,6 +4,3 @@ var popoverTriggerList = [].slice.call(
 var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
   return new bootstrap.Popover(popoverTriggerEl);
 });
-$(document).ready(function () {
-  $("#example").DataTable();
-});
