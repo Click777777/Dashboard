@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>adminDashboard</title>
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/animate.css/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/font-awesome/css/font-awesome.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./VenoBox-master/dist/venobox.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+		<div class="container-fluid " style="background-color:#F6F6F6;">
+      <div class="row ">
+        <!-- left part -->
+        <div class="col-12 col-lg-2 vh-100 overflow-scroll d-none d-lg-block left py-2">
+          <div class="row">
+            <div class="col-12">
+              <div class="p-2 d-flex justify-content-between align-items-center overflow-hidden">
+								<div class=" d-flex align-items-center">
+									<div class=" me-3">
+										<img src="./imgae/user/avatar2.jpg" alt="err" width="42" class="d-inline-block rounded-circle border border-2 border-primary">
+									</div>
+									<div class=" text-primary fst-italic h5 m-0">Digital Market</div>
+								</div>
+								<button type="button" class="btn  btn-outline-light d-lg-none">
+                  <i class="fa fa-times fs-3 cancle text-primary"></i>
+                </button>
+							</div>
+            </div>
+          </div>
+					<div class=" row">
+						<div class=" col-12">
+							<nav class="p-0 rounded navbar navbar-light d-flex justify-content-start align-items-center">
+								<ul class=" navbar-nav ps-3">
+									<li class=" nav-item d-flex align-items-baseline">
+										<i class=" fa fa-home fs-6 text-dark"></i>
+										<a class=" nav-link ms-2 fs-6 text-dark" href="./index.html">Home</a>
+									</li>
+								</ul>
+							</nav>
+							<div class=" p-3"></div>
+						</div>
+						<div class=" col-12">
+							<p class=" text-secondary fw-bold">MANAGE ITEM</p>
+							<nav class="rounded navbar navbar-light d-flex justify-content-start align-items-center p-0">
+								<ul class=" navbar-nav ps-3">
+									<li class=" nav-item d-flex align-items-baseline">
+										<i class=" fa fa-list-ul fs-6 text-dark"></i>
+										<a class=" nav-link ms-2 fs-6 text-dark" href="./orderList.html">Item List</a>
+									</li>
+								</ul>
+							</nav>
+							<nav class="rounded navbar navbar-light d-flex bg-primary justify-content-start align-items-center p-0">
+								<ul class=" navbar-nav ps-3">
+									<li class=" nav-item d-flex align-items-baseline">
+										<i class=" fa fa-plus-circle fs-6 text-light"></i>
+										<a class=" nav-link ms-2 active fs-6 text-light" href="./itemAdd.html">Add Item</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+        </div>
+        <!-- right part start-->
+        <div class="col-12 col-lg-10 vh-100 overflow-scroll right py-2">
+          <!-- header  -->
+          <div class="row headerRight">
+            <div class="col-12">
+              <div class="p-2 bg-primary d-flex align-items-center justify-content-between">
+                <button type="button" class="rmHover d-flex btn btn-outline-primary text-light d-lg-none">
+                  <i class="fa fa-bars fs-3 menu"></i>
+                </button>
+								<div class="d-none d-lg-block">
+									<div class=" d-flex">
+										<div class="btn-group me-1">
+											<button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+													<i class="fa fa-plus-circle text-light"></i>
+												QUICK ADD
+											</button>
+											<ul class="dropdown-menu">
+												<li><a class="dropdown-item" href="#">Action</a></li>
+												<li><a class="dropdown-item" href="#">Another action</a></li>
+												<li><a class="dropdown-item" href="#">Something else here</a></li>
+												<li><hr class="dropdown-divider"></li>
+												<li><a class="dropdown-item" href="#">Separated link</a></li>
+											</ul>
+										</div>
+										<form  class="form-inline d-flex">
+											<input type=" search" class=" form-control me-2" placeholder="Search Games">
+											<button class=" btn btn-light">
+												<i class=" fa fa-search text-primary"></i>
+											</button>
+										</form>
+									</div>
+								</div>
+								<div class=" d-flex align-items-center">
+									<a class="navbar-brand m-0 py-1 d-flex align-items-center" href="#" >
+										<img src="./imgae/user/avatar2.jpg" alt="err" width="35" class="d-inline-block border border-1 border-success rounded-circle me-2">
+										<span class=" d-none d-md-block align-middle text-light fs-6">Marry Jame</span>
+									</a>
+									<div class="btn-group d-none d-md-block">
+										<button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+											
+										</button>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="#">Action</a></li>
+											<li><a class="dropdown-item" href="#">Another action</a></li>
+											<li><a class="dropdown-item" href="#">Something else here</a></li>
+											<li><hr class="dropdown-divider"></li>
+											<li><a class="dropdown-item" href="#">Separated link</a></li>
+										</ul>
+									</div>
+								</div>
+              </div>
+            </div>
+          </div>
+          <div class=" row">
+						<!-- link direction -->
+						<div class="col-12">
+							<div class=" card" style="background: #f6f6f6;;border: none;border-radius: 0;">
+								<div class=" card-body">
+									<nav aria-label="breadcrumb">
+										<ol class="breadcrumb m-0">
+											<li class="breadcrumb-item"><a href="#" class=" fa fa-home fs-5"></a></li>
+											<li class="breadcrumb-item active" aria-current="page">ADD ITEM</li>
+										</ol>
+									</nav>
+								</div>
+							</div>
+						</div>
+						<!-- form control -->
+						<div class=" col-12 col-xl-8">
+							<div class=" card shadow-lg">
+								<div class=" card-body">
+									<div class=" d-flex justify-content-between align-items-center">
+										<div class=" d-flex align-items-end">
+											<i class=" fa fa-plus-circle text-primary fs-4 me-2"></i>
+											<h6 class="m-0 fw-bold">ADD ITEM</h6>
+										</div>
+										<div class="">
+											<button class=" btn btn-sm btn-light btn-outline-primary only " ><i class=" fa fa-list-ul text-black-50"></i></button>
+										</div>
+									</div>
+									<hr>
+									<form action="#" class="form col-12 ">
+										<div class=" row">
+											<div class=" col-12 col-lg-6">
+												<div class=" mb-3">
+													<label for="file" class=" form-label">Item Photo</label>
+													<i data-bs-toggle="popover" title="Warning !" data-bs-content="Only support JPG and PNG " class=" fa fa-info-circle fs-6 text-secondary"></i>
+													<input type="file" name="file" id="file" class=" form-control">
+												</div>
+												<div class=" mb-3">
+													<label for="item" class=" form-label">Item Name</label>
+													<input type="text" name="item" id="item" class=" form-control">
+												</div>
+												<div class=" mb-3">
+													<label for="select" class=" form-label">Type</label>
+													<select name="select" id="select" class=" form-select">
+														<option selected disabled>Select Type</option>
+														<option value="1">Electronic</option>
+													</select>
+												</div>
+												<div class=" mb-3">
+													<label for="main" class=" form-label">Main Category</label>
+													<select name="main" id="main" class=" form-select">
+														<option selected disabled>Select Main Category</option>
+													</select>
+												</div>
+												<div class=" mb-3">
+													<label for="sub" class=" form-label">Sub Category</label>
+													<select name="sub" id="sub" class=" form-select">
+														<option selected disabled>Select Sub Category</option>
+													</select>
+												</div>
+											</div>
+											<div class=" col-12 col-lg-6">
+												<div class=" row">
+													<div class="col-6">
+														<label for="number" class="form-label">Item Quantity</label>
+														<input type="number" name="number" id="number" class="form-control">
+													</div>
+													<div class="col-6">
+														<label for="select" class="form-label">Unit</label>
+														<select name="select" id="select" class=" form-select">
+															<option selected disabled>Select Unit</option>
+															<option value="1">kg</option>
+															<option value="2">tan</option>
+														</select>
+													</div>
+													<div class=" col-12">
+														<div class=" my-3">
+															<label for="price" class=" form-label">Price</label>
+															<input type="number" name="price" id="price" class=" form-control">
+														</div>
+													</div>
+													<div class=" col-12">
+														<label for="note" class=" form-label">Description</label>
+														<div class=" form-floating">
+															<textarea placeholder="Please add a description for item" name="note" id="note" cols="30" rows="10" class=" form-control" style="height: 250px"></textarea>
+															<label for="note">Please add a description for item</label>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class=" col-12">
+											<hr class=" my-3">
+												<div class=" d-flex justify-content-end align-items-center">
+													<button class=" btn btn-primary">Add Item</button>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- to see -->
+					
+        </div>
+        <!-- right part end -->
+      </div>
+    </div>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./node_modules/chart.js/dist/chart.js"></script>
+    <script src="./VenoBox-master/dist/venobox.min.js"></script>
+		<script src="./js/app.js"></script>
+    <script src="./js/script.js"></script>
+		<script src="./js/addItem.js"></script>
+  </body>
+</html>
